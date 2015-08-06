@@ -1,0 +1,98 @@
+/** {
+	border: 1px solid red;
+}*/
+html,
+body {
+	height: 100%;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
+ul,
+ol {
+	list-style: none;
+	padding: 0;
+}
+h1 {
+	font-size: 3rem;
+	color: white;
+}
+.content {
+	margin: 0 auto;
+	width: 60rem;
+}
+.wrapper {
+	min-height: 100%;
+	margin-bottom: -3.125rem;
+}
+.wrapper:after {
+	content: "";
+	display: block;
+}
+.page-footer,
+.wrapper:after {
+	height: 3.125rem;
+}
+.masthead,
+.add-item,
+.shopping-list,
+.page-footer {
+	text-align: center;
+}
+.masthead {
+	padding: 1em 0 2em;
+	background-color: teal;
+	border-bottom: 1px solid #999;
+	box-shadow: 2px 0px 3px #999;
+}
+.masthead-icon {
+	width: 15em;
+	height: 15em;
+	background-color: white;
+	margin: 0 auto;
+	border-radius: 10em;
+	box-shadow: 0px 0px 5px #555;
+	border: 1px solid #555;
+}
+.masthead-icon img {
+	margin: -0.3em -0.5em;
+}
+.shopping-container {
+	font-size: 1.2em;
+	margin: 1.2em;
+}
+.shopping-list {
+	
+}
+.add-item {
+	margin: 2rem 0;
+}
+.list {
+	margin: 2em auto 3em;
+	width: 30rem;
+}
+.list li {
+	margin-top: 1.2em;
+	padding: 5px 10px;
+	background-color: darkorange;
+	border-radius: 25px;
+	border: 1px solid #999;
+}
+.list li .check,
+.list li .remove {
+	text-shadow: 0px 0px 1px black;
+}
+.list li .check {
+	float: left;
+	color: teal;
+}
+.list li .remove {
+	float: right;
+	color: red;
+}
+.page-footer {
+	background-color: teal;
+	width: 100%;
+	box-shadow: 2px 0px 3px #999;
+	border-top: 1px solid #999;
+}
