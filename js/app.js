@@ -33,6 +33,6 @@ function addRemoveItemsToTheList() {
 	});
 	$('.list').on('click', '.check', function(event) {
 		event.preventDefault();
-		$('li').css('text-decoration', 'line-through').css('background-color', 'gray');
+		$(this).css('text-decoration', 'line-through').css('background-color', 'gray');
 	});
 };
