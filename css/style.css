@@ -53,16 +53,22 @@ h1 {
 	border-radius: 10em;
 	box-shadow: 0px 0px 5px #555;
 	border: 1px solid #555;
-}
-.masthead-icon img {
 	margin: -0.3em -0.5em;
 }
+/*.masthead-icon img {
+	margin: -0.3em -0.5em;
+}*/
 .shopping-container {
 	font-size: 1.2em;
 	margin: 1.2em;
+	text-align: center;
 }
 .shopping-list {
 	
+}
+.clear-list {
+	display: none;
+	margin: 0 auto;
 }
 .add-item {
 	margin: 2rem 0;
@@ -79,16 +85,36 @@ h1 {
 	border: 1px solid #999;
 }
 .list li .check,
-.list li .remove {
+.list li .remove,
+.list li .uncheck {
 	text-shadow: 0px 0px 1px black;
 }
+.list li .uncheck {
+	display: none;
+}
 .list li .check {
+	display: block;
+}
+.list li .check,
+.list li .uncheck {
 	float: left;
 	color: teal;
 }
 .list li .remove {
 	float: right;
 	color: red;
+}
+.list li .remove:hover,
+.list li .check:hover,
+.list li .uncheck:hover {
+	cursor: pointer;
+}
+.list li .remove:hover {
+	color: darkred;
+}
+.list li .check:hover,
+.list li .uncheck:hover  {
+	color: darkslategray;
 }
 .page-footer {
 	background-color: teal;

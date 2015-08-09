@@ -20,13 +20,14 @@
 		</header>
 		<section class="shopping-container">
 			<div class="content">
+				<button class="clear-list">Clear List</button>
 				<div class="add-item">
 					<p>Type something in the box below and click the button to add it to the list.</p>
-					<input class="item-input" type="text" placeholder="Add Item">
-					<button>Add Item</button>
+					<input id="item" class="item-input" type="text" placeholder="Add Item">
+					<button id="add">Add Item</button>
 				</div>
 				<div class="shopping-list">
-					<p>Click the 'X' on the right to remove an item, or the 'Check' mark on the left to mark it complete.</p>
+					<p id="how-to" style="display: none">Click the 'X' on the right to remove an item, or the 'Check' mark on the left to mark it complete.</p>
 					<ul class="list">
 						<!-- <li><span class="check"><i class="fa fa-check fa-lg"></i></span>Eggs<span class="remove"><i class="fa fa-times fa-lg"></i></span></li>
 						<li><span class="check"><i class="fa fa-check fa-lg"></i></span>Butter<span class="remove"><i class="fa fa-times fa-lg"></i></span></li>

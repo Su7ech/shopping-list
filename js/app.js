@@ -29,10 +29,18 @@ function addRemoveItemsToTheList() {
 	});
 	$('.list').on('click', '.remove', function(event) {
 		event.preventDefault();
+<<<<<<< HEAD
 		$('li').prev().remove();
 	});
 	$('.list').on('click', '.check', function(event) {
 		event.preventDefault();
 		$(this).css('text-decoration', 'line-through').css('background-color', 'gray');
+=======
+		$(this).parent().remove();
+	});
+	$('.list').on('click', '.check', function(event) {
+		event.preventDefault();
+		$(this).parent().css('text-decoration', 'line-through').css('background-color', 'gray');
+>>>>>>> gh-pages
 	});
 };
