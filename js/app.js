@@ -29,7 +29,7 @@ function addRemoveItemsToTheList() {
 	});
 	$('.list').on('click', '.remove', function(event) {
 		event.preventDefault();
-		$('li').remove();
+		$('li').prev().remove();
 	});
 	$('.list').on('click', '.check', function(event) {
 		event.preventDefault();

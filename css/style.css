@@ -85,10 +85,18 @@ h1 {
 	border: 1px solid #999;
 }
 .list li .check,
-.list li .remove {
+.list li .remove,
+.list li .uncheck {
 	text-shadow: 0px 0px 1px black;
 }
+.list li .uncheck {
+	display: none;
+}
 .list li .check {
+	display: block;
+}
+.list li .check,
+.list li .uncheck {
 	float: left;
 	color: teal;
 }
@@ -97,13 +105,15 @@ h1 {
 	color: red;
 }
 .list li .remove:hover,
-.list li .check:hover {
+.list li .check:hover,
+.list li .uncheck:hover {
 	cursor: pointer;
 }
 .list li .remove:hover {
 	color: darkred;
 }
-.list li .check:hover  {
+.list li .check:hover,
+.list li .uncheck:hover  {
 	color: darkslategray;
 }
 .page-footer {
