@@ -33,11 +33,13 @@ function addRemoveItemsToTheList() {
 	});
 	$('.list').on('click', '.remove', function(event) {
 		event.preventDefault();
-		$(this).parent().remove();
+		$(this).parent().fadeOut(150, function() {
+			$(this).remove();
+		});
 	});
-
 	$('.list').on('click', '.check', function(event) {
 		event.preventDefault();
-		$(this).parent().css('text-decoration', 'line-through').css('background-color', 'gray');
+		$(this).parent().toggleClass("cross-off");
+		$()
 	});
 };
