@@ -57,6 +57,7 @@ input {
 .page-footer {
 	text-align: center;
 }
+/*Header Code*/
 .masthead {
 	padding: 1em 0 2em;
 	background-color: teal;
@@ -73,9 +74,7 @@ input {
 	border: 1px solid #555;
 	margin: -0.3em -0.5em;
 }
-/*.masthead-icon img {
-	margin: -0.3em -0.5em;
-}*/
+/*Code for list and input*/
 .shopping-container {
 	font-size: 1.2em;
 	margin: 1.2em;
@@ -84,6 +83,7 @@ input {
 .shopping-list {
 	
 }
+/*Style for Start Over Button*/
 .clear-list {
 	display: none;
 	margin: 0 auto;
@@ -91,6 +91,7 @@ input {
 .add-item {
 	margin: 2rem 0;
 }
+/*Styles for List Items*/
 .list {
 	margin: 2em auto 3em;
 	width: 30rem;
@@ -127,11 +128,13 @@ input {
 .list li .check:hover {
 	color: darkslategray;
 }
+/*Style to check item off list*/
 .cross-off {
 	text-decoration: line-through !important;
 	background-color: gray !important;
 	opacity: 0.5 !important;
 }
+/*Footer Code*/
 .page-footer {
 	background-color: teal;
 	width: 100%;
